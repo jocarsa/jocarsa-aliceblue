@@ -106,6 +106,7 @@
         <select id="room" required>
             <option value="DAM">DAM</option>
             <option value="SMR">SMR</option>
+            <option value="Capitol">Capitol</option>
         </select>
         
         <button id="startCapture">Comenzar</button>
@@ -158,7 +159,7 @@
                     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
                     // Convert the frame to Base64
-                    const frame = canvas.toDataURL("image/png");
+                    const frame = canvas.toDataURL("image/jpeg");
 
                     // Update the displayed frame
                     lastFrameImg.src = frame;

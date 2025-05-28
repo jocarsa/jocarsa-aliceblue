@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Save the frame with epoch timestamp as the filename
-    $filePath = "$dir/" . time() . ".png";
+    $filePath = "$dir/" . time() . ".jpg";
     if (file_put_contents($filePath, $frameData)) {
         echo "Frame saved as $filePath.";
     } else {

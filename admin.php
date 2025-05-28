@@ -226,6 +226,7 @@ position:absolute;
             <option value="">Selecciona una sala</option>
             <option value="DAM">DAM</option>
             <option value="SMR">SMR</option>
+            <option value="Capitol">Capitol</option>
         </select>
         <div class="grid" id="grid"></div>
     </div>
